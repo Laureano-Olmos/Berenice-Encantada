@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilos generales */
+body {
+    background-color: #F6F1F5; /* Fondo pastel suave */
+    color: #3B2C35; /* Color de texto neutro */
+    font-family: "Alegreya", serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    text-decoration: dashed;
+}
+
+/* Estilos para los títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", serif;
+    color: #6C63FF; /* Un toque de lila pastel mágico */
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilos de h1 mágico */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5); /* Sombra suave */
+    color: #FFB6C1; /* Rosa pastel */
+    transition: all 0.4s ease;
+}
+
+/* Efecto de hover para h1 */
+h1:hover {
+    color: #FF69B4; /* Rosa más intenso */
+    transform: scale(1.05); /* Pequeño agrandamiento */
+    text-shadow: 4px 4px 10px rgba(255, 182, 193, 0.7); /* Sombra más intensa */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    font-size: 2.5rem;
+    color: #FFD580; /* Amarillo pastel */
+    text-shadow: 1px 1px 4px rgba(255, 213, 128, 0.6);
+}
+
+h3 {
+    font-size: 2rem;
+    color: #A1D6E2; /* Azul pastel */
+    text-shadow: 1px 1px 4px rgba(161, 214, 226, 0.6);
+}
+
+/* Botones mágicos */
+button {
+    font-family: "Alegreya", serif;
+    background-color: #FFB6C1; /* Fondo rosa pastel */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover para botones */
+button:hover {
+    background-color: #FF69B4; /* Fondo más vibrante */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Sección de contacto */
+#contacto {
+    padding: 50px 20px;
+    background-color: #E0E7FF; /* Azul pastel del fondo general */
+    text-align: center;
+}
+
+/* Estilo del título de la sección */
+#contacto h2 {
+    font-family: "Alegreya", serif;
+    font-size: 2.5rem;
+    color: #6C63FF; /* Lila pastel */
+    margin-bottom: 10px;
+}
+
+#contacto p {
+    font-size: 1.2rem;
+    color: #3B2C35;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FFFFFF; /* Fondo blanco para contraste */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Etiquetas del formulario */
+form label {
+    font-family: "Alegreya", serif;
+    font-size: 1.2rem;
+    color: #6C63FF; /* Lila pastel */
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+/* Inputs y textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #FFD580; /* Amarillo pastel */
+    border-radius: 10px;
+    font-family: "Alegreya", serif;
+    font-size: 1rem;
+    background-color: #F9F9FF; /* Suave tono de fondo */
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease;
+}
+
+/* Efecto al hacer foco en los campos */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #A1D6E2; /* Azul pastel */
+    outline: none;
+}
+
+/* Botón de envío */
+form button[type="submit"] {
+    font-family: "Alegreya", serif;
+    background-color: #FFB6C1; /* Rosa pastel */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+form button[type="submit"]:hover {
+    background-color: #FF69B4; /* Rosa más intenso */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo del header */
+header {
+    background-color: #6C63FF; /* Lila pastel para el fondo */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo del título del header */
+header h1 {
+    font-family: "Alegreya", serif;
+    font-size: 3rem;
+    color: #FFFFFF; /* Blanco para el título */
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2); /* Sombra suave */
+}
+
+/* Estilo de la barra de navegación */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Enlaces de navegación */
+nav ul li a {
+    font-family: "Alegreya", serif;
+    font-size: 1.2rem;
+    color: #FFD580; /* Amarillo pastel */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para los enlaces */
+nav ul li a:hover {
+    background-color: #FFB6C1; /* Rosa pastel */
+    color: #FFFFFF; /* Blanco para mejor contraste */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Opciones de usuario (login, registro, nombre del usuario) */
+.user-options {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.user-options a, .user-options span {
+    font-family: "Alegreya", serif;
+    color: #FFD580; /* Amarillo pastel */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.user-options .btn {
+    background-color: #f56379; /* Botón rosa pastel */
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.user-options .btn:hover {
+    background-color: #FF69B4; /* Rosa más fuerte */
+    color: #fff;
+}
+
+/* Estilos del modal */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Centrando la ventana emergente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px; /* Ancho máximo */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal h2 {
+    font-family: "Alegreya", serif;
+    font-size: 1.8rem;
+    color: #6C63FF; /* Color lila pastel */
+    margin-bottom: 15px;
+}
+
+.modal-content label {
+    font-family: "Alegreya", serif;
+    display: block;
+    margin-bottom: 10px;
+    color: #3B2C35;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #FFD580; /* Amarillo pastel */
+    border-radius: 5px;
+}
+
+.modal-content button[type="submit"] {
+    font-family: "Alegreya", serif;
+    background-color: #FFB6C1; /* Rosa pastel */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #FF69B4; /* Rosa más intenso */
+    color: #fff;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.productos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 1.5em;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #666;
+}
+
+.producto button {
+    background-color: #6a5acd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #483d8b;
+}
+

@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #6a5acd;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #483d8b;
+}
+
+#finalizar-compra {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#finalizar-compra h2 {
+    color: #00796b;
+}
+
+#finalizar-compra form {
+    display: flex;
+    flex-direction: column;
+}
+
+#finalizar-compra label, #finalizar-compra input, #finalizar-compra select, #finalizar-compra textarea {
+    margin-bottom: 10px;
+}
+
+#finalizar-compra button {
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#finalizar-compra button:hover {
+    background-color: #00796b;
+}
